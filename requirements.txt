@@ -1,0 +1,4 @@
+pymongo==4.2.0
+
+#editable mode - it will trigger setup.py autoamatically & we would not have to tun it each time
+-e . 
