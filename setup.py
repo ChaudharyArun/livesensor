@@ -2,8 +2,12 @@ from setuptools import find_packages, setup
 #from typing import List
 
 # return list of strings
-def get_requirements()->list[str]:
-    requirements_list = list[str] = []
+def get_requirements() -> List[str]:
+
+    # This function will return list of requirements
+    requirements_list: List[str] = []
+
+    # Write a code to read requirements.txt file & append each requirements in requirement list variable 
     return requirements_list
 
 setup(
